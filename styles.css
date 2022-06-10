@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.layers{
+    height: 800px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.layer{
+    background-position: bottom center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    z-index: -1;
+}
+
+.layerBG{
+    background-image: url(ilu_bg.jpg);
+}
+.layerMountain{
+    background-image: url(ilu_03.png);
+}
+.layerCH{
+    background-image: url(ilu_man.png);
+    background-position: 700px 300px;
+}
+.layerLargerStrip{
+    background-image: url(ilu_02.png);
+}
+.layerSmallerStrip{
+    background-image: url(ilu_01.png);
+}
+
+
+
+
+/* --------------- Text Section ------------------- */
+.text{
+    background-color: black;
+    color: aliceblue;
+    padding: 4.5em;
+}
+
+.title{
+    max-width: 450px;
+    margin: 2rem 0;
+}
+
+.sub-text{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2em;
+}
